@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  background: #F6F6F6;
+  font-family: 'Mulish', 'Helvetica', sans-serif;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+ul, li {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+.main {
+  display: flex;
+}
+
+.main__title {
+  color: #11283c;
+  font-size: 24px;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  line-height: 30.12px;
+  margin-bottom: 25px;
+}
+
+.dropdown {
+  color: #11283c;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  margin: 0;
+}
+
+.loading {
+  color: orange;
+  text-align: center;
+}
